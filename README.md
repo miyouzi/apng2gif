@@ -3,6 +3,8 @@
 
 使用前需要将 ffmpeg 放入系统 PATH，或者将```set "ffmpeg=ffmpeg"```更改为 ```set ffmpeg="ffmpeg的完整路径"```
 
+如果不会以上操作，那么请下载```ffmpeg.exe```放到和批处理相同目录下。
+
 如果需要转换为背景透明的 gif 则将 ```set /A whitebgd = 1``` 更改为 ```set /A whitebgd = 0```，但不推荐使用，因为 gif 不支持半透明，只有透明和不透明，输出的gif将可能会有白边。
 
 ## 如何运行
