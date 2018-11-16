@@ -1,10 +1,11 @@
 @mode con cols=63 lines=40
 @echo off
 chcp 65001 >nul
-title APNG转GIF工具 By 米柚子
+title APNG转GIF工具v1.1 By 米柚子
 
 set "ffmpeg=ffmpeg"
 set /A whitebgd = 1
+set "PATH=%PATH%;"%~dp0""
 
 if "%~1"=="" (
 	cd /D "%~dp0"
